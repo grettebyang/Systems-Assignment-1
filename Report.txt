@@ -1,5 +1,7 @@
 Profiling and CPU Architecture Report
 
+For this assignment, I used the std::chrono high resolution clock to track the time spent in a part of the program. I also used the google profiler to profile the program, but the timer provided sufficient enough information for this task.
+
 Part 1:
 	Instead of 1M elements, I used 1B elements to get a better measurement of how long the program spent in the loop. In part 1, using the chrono clocks to measure the time, the program spent 122 nanoseconds adding every element to the sum. 
 
